@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // "body" is a computed property
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        // opaque return type
+        return Image("Spongecake")
+            .resizable()
+            .scaledToFit()
     }
 }
 
