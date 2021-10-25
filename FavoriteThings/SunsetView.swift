@@ -17,7 +17,7 @@ struct SunsetView: View {
             Text("""
                  This photo was taken at 6：11 pm on October 18, 2021.
                  
-                 I went down to the waterfront with my friend and I saw this beautiful sunset scene and took a photo of it when I went down to the waterfront of Lakefield College School with my friend.
+                 I saw this beautiful sunset scene and took a photo of it when I went down to the waterfront of Lakefield College School with my friend.
                  """)
                 .padding()
             
