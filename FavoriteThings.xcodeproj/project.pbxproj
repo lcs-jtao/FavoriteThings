@@ -36,6 +36,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C3F2AF927284F9E00E09998 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C4B73CE2721F62100997D54 /* BeachView.swift */,
+				6C4B73CC2721F52A00997D54 /* SunsetView.swift */,
+				6C4B73BE2721EF5D00997D54 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6C4B73B02721EF5C00997D54 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				6C4B73BC2721EF5C00997D54 /* FavoriteThingsApp.swift */,
-				6C4B73BE2721EF5D00997D54 /* ContentView.swift */,
+				6C3F2AF927284F9E00E09998 /* Views */,
 				6C4B73C02721EF6200997D54 /* Assets.xcassets */,
 				6C4B73C22721EF6200997D54 /* Preview Content */,
-				6C4B73CC2721F52A00997D54 /* SunsetView.swift */,
-				6C4B73CE2721F62100997D54 /* BeachView.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
