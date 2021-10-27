@@ -18,7 +18,11 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("This is a picture of my adorable four-year-old little dog learning on my pillow. Her name is Spongecake and she is a bichon frise :D")
+                Text("""
+                     This photo was taken on November 12, 2020.
+                     
+                     It is a picture of my little dog Spongecake learning on my pillow. She was three years old when it was taken and now she's four. I love her so much :D
+                     """)
                     .padding()
                 
                 Spacer()

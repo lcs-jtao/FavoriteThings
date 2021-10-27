@@ -27,6 +27,24 @@ struct FavouriteThingsListView: View {
             }, label: {
                 Text("Sunset")
             })
+            
+            NavigationLink(destination: {
+                FriendsView()
+            }, label: {
+                Text("Friends")
+            })
+            
+            NavigationLink(destination: {
+                FlowerView()
+            }, label: {
+                Text("Flower")
+            })
+            
+            NavigationLink(destination: {
+                DisneylandView()
+            }, label: {
+                Text("Disneyland")
+            })
         }
         .navigationTitle("Fave Things")
     }
