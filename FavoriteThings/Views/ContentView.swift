@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("""
                      This photo was taken on November 12, 2020.
                      
-                     It is a picture of my little dog Spongecake learning on my pillow. She was three years old when it was taken and now she's four. I love her so much :D
+                     It is a picture of my little dog Spongecake leaning on my pillow. She was three years old when it was taken and now she's four. I love her so much :D
                      """)
                     .padding()
                 
