@@ -11,9 +11,26 @@ struct BeachView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image("Beach")
-                    .resizable()
-                    .scaledToFit()
+                
+                VStack(alignment: .leading) {
+                    
+                    Image("Beach")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Group {
+                        
+                        Text("Sharm el-Sheikh beach")
+                            .bold()
+                        
+                        Text("Photo credit: Joyce Tao")
+                            .italic()
+                           
+                    }
+                    .padding(.horizontal)
+                    .font(.caption)
+
+                }
                 
                 Text("""
                      This photo was taken at 5:42 pm on January 31, 2019.
