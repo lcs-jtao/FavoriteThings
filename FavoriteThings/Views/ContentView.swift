@@ -14,9 +14,9 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 // opaque returned type
-                Image("Spongecake")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(imageName: "Spongecake",
+                                 caption: "little Spongecake",
+                                 credit: "Photo credit: Joyce Tao")
                 
                 Text("""
                      This photo was taken on November 12, 2020.

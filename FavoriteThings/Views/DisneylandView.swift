@@ -11,9 +11,9 @@ struct DisneylandView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image("Disneyland")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(imageName: "Disneyland",
+                                 caption: "the Enchanted Storybook Castle",
+                                 credit: "Photo credit: Joyce Tao")
                 
                 Text("""
                      This photo was taken on January 2, 2020.

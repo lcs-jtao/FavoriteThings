@@ -11,9 +11,9 @@ struct FlowerView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image("Flower")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(imageName: "Flower",
+                                 caption: "the bouquet",
+                                 credit: "Photo credit: Joyce Tao")
                 
                 Text("""
                      This photo was taken on September 12, 2021.

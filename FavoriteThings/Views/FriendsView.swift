@@ -11,9 +11,9 @@ struct FriendsView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image("Friends")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(imageName: "Friends",
+                                 caption: "us in Jingde",
+                                 credit: "Photo credit: Joyce Tao")
                 Text("""
                      This photo was taken on July 26, 2021.
                      

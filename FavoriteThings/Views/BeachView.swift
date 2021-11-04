@@ -12,25 +12,9 @@ struct BeachView: View {
         ScrollView {
             VStack {
                 
-                VStack(alignment: .leading) {
-                    
-                    Image("Beach")
-                        .resizable()
-                        .scaledToFit()
-                    
-                    Group {
-                        
-                        Text("Sharm el-Sheikh beach")
-                            .bold()
-                        
-                        Text("Photo credit: Joyce Tao")
-                            .italic()
-                           
-                    }
-                    .padding(.horizontal)
-                    .font(.caption)
-
-                }
+                PhotoCaptionView(imageName: "Beach",
+                                 caption: "Sharm el-Sheikh beach",
+                                 credit: "Photo credit: Joyce Tao")
                 
                 Text("""
                      This photo was taken at 5:42 pm on January 31, 2019.

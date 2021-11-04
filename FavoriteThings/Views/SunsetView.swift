@@ -11,9 +11,9 @@ struct SunsetView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image("Sunset")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(imageName: "Sunset",
+                                 caption: "sunset at LCS",
+                                 credit: "Photo credit: Joyce Tao")
                 
                 Text("""
                      This photo was taken at 6：11 pm on October 18, 2021.
