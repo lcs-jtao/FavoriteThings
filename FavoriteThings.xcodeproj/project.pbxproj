@@ -15,6 +15,7 @@
 		6C4B73CF2721F62100997D54 /* BeachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B73CE2721F62100997D54 /* BeachView.swift */; };
 		6C51C3EC27345EEB00BAA271 /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51C3EB27345EEB00BAA271 /* PhotoCaptionView.swift */; };
 		6C51C3EE2734695700BAA271 /* EnhancedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51C3ED2734695700BAA271 /* EnhancedListView.swift */; };
+		6C51C3F12736EADA00BAA271 /* FavouriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51C3F02736EAD900BAA271 /* FavouriteThing.swift */; };
 		6CC73AAF2728CBD7008BA933 /* DisneylandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC73AAE2728CBD7008BA933 /* DisneylandView.swift */; };
 		6CF80B352728547900BB7838 /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF80B342728547800BB7838 /* FavouriteThingsListView.swift */; };
 		6CF80B37272859FC00BB7838 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF80B36272859FC00BB7838 /* FriendsView.swift */; };
@@ -31,6 +32,7 @@
 		6C4B73CE2721F62100997D54 /* BeachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachView.swift; sourceTree = "<group>"; };
 		6C51C3EB27345EEB00BAA271 /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 		6C51C3ED2734695700BAA271 /* EnhancedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListView.swift; sourceTree = "<group>"; };
+		6C51C3F02736EAD900BAA271 /* FavouriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThing.swift; sourceTree = "<group>"; };
 		6CC73AAE2728CBD7008BA933 /* DisneylandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneylandView.swift; sourceTree = "<group>"; };
 		6CF80B342728547800BB7838 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		6CF80B36272859FC00BB7838 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		6C3F2AF927284F9E00E09998 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6C51C3EF2736EAA900BAA271 /* Model */,
 				6C51C3EA27345EA400BAA271 /* Shared */,
 				6C4B73CE2721F62100997D54 /* BeachView.swift */,
 				6C4B73CC2721F52A00997D54 /* SunsetView.swift */,
@@ -105,6 +108,14 @@
 				6C51C3EB27345EEB00BAA271 /* PhotoCaptionView.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		6C51C3EF2736EAA900BAA271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C51C3F02736EAD900BAA271 /* FavouriteThing.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C51C3F12736EADA00BAA271 /* FavouriteThing.swift in Sources */,
 				6C51C3EE2734695700BAA271 /* EnhancedListView.swift in Sources */,
 				6CF80B37272859FC00BB7838 /* FriendsView.swift in Sources */,
 				6C4B73CF2721F62100997D54 /* BeachView.swift in Sources */,
