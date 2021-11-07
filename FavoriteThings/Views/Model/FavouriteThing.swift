@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FavouriteThing: View {
+struct FavouriteThing {
      // MARK: Stored properties
     let imageName: String
     let title: String
