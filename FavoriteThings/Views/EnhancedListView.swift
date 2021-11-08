@@ -12,103 +12,42 @@ struct EnhancedListView: View {
         List {
             
             NavigationLink(destination: ContentView()) {
-                HStack {
-                    Image("Spongecake")
-                        .resizable()
-                        //.scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading) {
-                        Text("Spongecake")
-                            .bold()
-                        Text("a picture of my little dog Spongecake leaning on my pillow")
-                            .font(.caption)
-                    }
-                }
+                FavouriteThingsEnhancedListView(imageName: "Spongecake",
+                                                title: "Spongecake",
+                                                navigationSubtitle: "a picture of my little dog Spongecake leaning on my pillow")
             }
             
             NavigationLink(destination: BeachView()) {
-                HStack {
-                    Image("Beach")
-                        .resizable()
-                        //.scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading) {
-                        Text("Beach")
-                            .bold()
-                        Text("a picture of a beach in Sharm el-Sheikh")
-                            .font(.caption)
-                    }
-                }
+                FavouriteThingsEnhancedListView(imageName: "Beach",
+                                                title: "Beach",
+                                                navigationSubtitle: "a picture of a beach in Sharm el-Sheikh")
             }
 
             NavigationLink(destination: SunsetView()) {
-                HStack {
-                    Image("Sunset")
-                        .resizable()
-                        //.scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading) {
-                        Text("Sunset")
-                            .bold()
-                        Text("a picture of a beautiful sunset scene")
-                            .font(.caption)
-                    }
-                }
+                FavouriteThingsEnhancedListView(imageName: "Sunset",
+                                                title: "Sunset",
+                                                navigationSubtitle: "a picture of a beautiful sunset scene")
             }
             
             NavigationLink(destination: FriendsView()) {
-                HStack {
-                    Image("Friends")
-                        .resizable()
-                        //.scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading) {
-                        Text("Friends")
-                            .bold()
-                        Text("a picture of me and my friends in Jingde")
-                            .font(.caption)
-                    }
-                }
+                FavouriteThingsEnhancedListView(imageName: "Friends",
+                                                title: "Friends",
+                                                navigationSubtitle: "a picture of me and my friends in Jingde")
             }
             
             NavigationLink(destination: FlowerView()) {
-                HStack {
-                    Image("Flower")
-                        .resizable()
-                        //.scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading) {
-                        Text("Flower")
-                            .bold()
-                        Text("a picture of the first bouquet I have received in my life")
-                            .font(.caption)
-                    }
-                }
+                FavouriteThingsEnhancedListView(imageName: "Flower",
+                                                title: "Flower",
+                                                navigationSubtitle: "a picture of the first bouquet I have received in my life")
             }
             
             NavigationLink(destination: DisneylandView()) {
-                HStack {
-                    Image("Disneyland")
-                        .resizable()
-                        //.scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading) {
-                        Text("Disneyland")
-                            .bold()
-                        Text("a picture of the Enchanted Storybook Castle at Shanghai Disney Resort")
-                            .font(.caption)
-                    }
-                }
+                FavouriteThingsEnhancedListView(imageName: "Disneyland",
+                                                title: "Disneyland",
+                                                navigationSubtitle: "a picture of the Enchanted Storybook Castle at Shanghai Disney Resort")
             }
-        }
         .navigationTitle("Fave Things")
-
+        }
     }
 }
 
