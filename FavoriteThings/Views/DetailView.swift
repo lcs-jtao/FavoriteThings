@@ -25,7 +25,7 @@ struct DetailView: View {
                 Spacer()
             }
         }
-        .navigationTitle("Disneyland")
+        .navigationTitle(item.title)
     }
 }
 
