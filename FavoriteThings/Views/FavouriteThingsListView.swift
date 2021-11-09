@@ -10,41 +10,15 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
-            NavigationLink(destination: {
-                ContentView()
-            }, label: {
-                Text("Spongecake")
-            })
-            
-            NavigationLink(destination: {
-                BeachView()
-            }, label: {
-                Text("Beach")
-            })
-
-            NavigationLink(destination: {
-                SunsetView()
-            }, label: {
-                Text("Sunset")
-            })
-            
-            NavigationLink(destination: {
-                FriendsView()
-            }, label: {
-                Text("Friends")
-            })
-            
-            NavigationLink(destination: {
-                FlowerView()
-            }, label: {
-                Text("Flower")
-            })
-            
-            NavigationLink(destination: {
-                DisneylandView()
-            }, label: {
-                Text("Disneyland")
-            })
+            ForEach(listOfItems) { currentItem in
+                NavigationLink(destination: {
+                    DetailView(item: currentItem)
+                }, label: {
+                    FavouriteThingsEnhancedListView(imageName: currentItem.imageName,
+                                                    title: currentItem.title,
+                                                    navigationSubtitle: currentItem.navigationSubtitle)
+                })
+            }
         }
         .navigationTitle("Fave Things")
     }
